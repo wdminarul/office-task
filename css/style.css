@@ -1,181 +1,221 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
-.main-content{
-    width: 1200px;
+
+.main-content {
+    width: 90%;
     margin: 30px auto;
 }
-.heading-details{
+
+.heading-details {
     display: flex;
 }
-.logo-describe{
+
+.logo-describe {
     width: 50%;
 }
-.logo-describe .brand-name{
+
+.logo-describe .brand-name {
     color: #152973;
-    font-weight:bolder;
+    font-weight: bolder;
     font-size: 40px;
 }
-.brand-name span{
+
+.brand-name span {
     color: red;
     font-size: 40px;
 }
-.brand-name .brand-describe{
+
+.brand-name .brand-describe {
     color: #000;
     font-size: 16px;
 }
+
 /* data section style  */
-.data{
+.data {
     width: 50%;
     align-items: right;
 }
-.data table{
+
+.data table {
     width: 100%;
 }
-.data table td,th{
+
+.data table td,
+th {
     text-align: right;
 }
-.data table th{
+
+.data table th {
     font-size: 35px;
     font-weight: bold;
     color: #212926;
     padding: 10px 0 10px 0;
 }
-.data table td{
+
+.data table td {
     padding: 5px 0 5px 0;
     color: #43454d;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 
 /* address and contact sction design  */
-.brand-address-contact{
+.brand-address-contact {
     display: flex;
     margin-top: 30px;
 }
-.address{
+
+.address {
     width: 50%;
-}
-.address P{
-    font-size: 18px;
-    color: #43454d;
-    padding-bottom: 10px;
-    line-height:160%;
 }
 
-.address li{
+.address P {
+    font-size: 16px;
+    color: #43454d;
+    padding-bottom: 10px;
+    line-height: 160%;
+}
+
+.address li {
     list-style-type: none;
-    line-height:160%;
-    font-size: 18px;
+    line-height: 160%;
+    font-size: 16px;
     color: #43454d;
 }
-.address .list-1{
+
+.address .list-1 {
     margin-top: 10px;
 }
-.contact-info{
+
+.contact-info {
     width: 50%;
 }
-.contact-info li{
+
+.contact-info li {
     list-style-type: none;
     text-align: right;
-    line-height:160%;
-    font-size: 18px;
+    line-height: 160%;
+    font-size: 16px;
     color: #43454d;
 }
 
 /* products stock section design  */
-.products-details{
+.products-details {
     margin-top: 30px;
 }
-.products-details p{
-    font-size: 18px;
+
+.products-details p {
+    font-size: 16px;
     line-height: 160%;
     color: #43454d;
     margin-bottom: 20px;
 }
+
 .products-details table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
-    width: 100%;
-  }.text-left{
-    text-align: right;
- }
-  
-.products-details table .with-border{
     border: 2px solid #C7C7C7;
-    padding: 8px;
-  }
-.products-details tr th{
-    background-color: #EEEFF1;
-    font-size: 22px;
-    font-weight: bold;
-  }
-.products-details table td{
-    line-height: 160%;
-    font-size: 22px;
-    color: #7f7979;
-  }
-.products-details table td span{
-    font-size: 22px;
-    font-weight: bold;
-    color: #000;
+    width: 100%;
 }
-.products-details table td .total-right{
+
+.text-left {
     text-align: right;
 }
-.products-details table tr th:first-child{
+
+.products-details table .with-border {
+    border: 2px solid #C7C7C7;
+    padding: 5px;
+}
+
+.products-details tr th {
+    background-color: #EEEFF1;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.products-details table td {
+    line-height: 160%;
+    font-size: 18px;
+    color: #7f7979;
+}
+
+.products-details table td span {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+}
+
+.products-details table td .total-right {
+    text-align: right;
+}
+
+.products-details table tr th:first-child {
     width: 5%;
-  }
-  
-.products-details table tr .second-child{
+}
+
+.products-details table tr .second-child {
     width: 45%;
-  }
-.products-details table th:last-child{
+    text-align: left;
+}
+
+.products-details table th:last-child {
     width: 20%;
-  }
-.last-child{
+}
+
+.last-child {
     background-color: #EEEFF1;
     color: #000;
     font-weight: bold;
 }
-.total-number{
+
+.total-number {
     display: flex;
 }
-.title{
+
+.title {
     width: 50%;
+    padding-left: 8px;
 }
-.number{
+
+.number {
     width: 50%;
     text-align: right;
+    padding-right: 8px;
 }
 
 /* billing section design  */
 
-.billing-main{
+.billing-main {
     margin-top: 60px;
     width: 50%;
     border-bottom: 1px solid #C7C7C7;
     padding-bottom: 10px;
 }
-.billing-name p{
+
+.billing-name p {
     font-size: 18px;
     color: #43454d;
     line-height: 180%;
 }
-.billing{
+
+.billing {
     display: flex;
     margin-top: 50px;
 }
-.billing li{
+
+.billing li {
     list-style-type: none;
     line-height: 160%;
     color: #43454d;
 }
-.company-details{
+
+.company-details {
     width: 50%;
 }
-.billing-details{
+
+.billing-details {
     width: 50%;
 }
